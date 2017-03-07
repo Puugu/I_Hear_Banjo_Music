@@ -1,0 +1,47 @@
+Release Name
+- TBD_DirectorRelease
+
+Team Roles
+- Product Owner: Rotating
+- Scrum Master: Rotating
+- Development Team: Nick, Mark, Jonathan, Dean, Courtney
+
+Meeting Schedule
+- Sprint Reviews - Monday nights in class
+- Sprint Planning - Monday nights in class
+- Mondays after class in person
+- Wednesday nights 10:30pm Discord
+- Sunday Afternoons in person/discord
+
+Collaboration tools
+- Trello (Product Backlog)
+- GitHub (Version Control)
+- Discord (Communication)
+
+Product backlog
+- on Trello
+
+Sprint Schedule
+- what Nelson gave us
+
+Team commitment
+- People will show up for each meeting
+- If they can't show up for a meeting, they will notify the team in advance
+- If they can't show up they will get in touch with someone and find out what
+  they missed before the next meeting
+- Show up to class
+- Comment code - put name with comments ex. @Courtney
+- Variable Names - camelCase, shortDescription
+
+Defintion of done
+- Functionality for director
+- Create race
+- Publish race on webpage
+
+Issues and Concerns
+- Use of bootstrap for html and css and javascript
+- database and logic to create race, edit results, and manage time
+- database for user accounts
+- coordinating timing
+- team knowledge weakness with databases
+- proposal for java for backend
