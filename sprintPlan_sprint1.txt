@@ -1,0 +1,41 @@
+Sprint 1
+
+Sprint Name: Sprint 1
+
+Team Roles
+- Product Owner - Nick
+- Scrum Master - Courtney
+- Dev Team - Nick, Courtney, Mark, Dean, Jonathan
+
+Meeting Schedule
+- Monday night in class
+- Wednesday nights 10:30pm Discord
+- Sunday Afternoons in person/discord at 1:00
+
+Collaboration Tools
+- Trello - Product Backlog
+- Google Drive - document sharing
+- Discord - voice communication
+- Text Message - communication
+
+Team Commitment
+- People will show up for each meeting
+- If they can't show up for a meeting, they will notify the team in advance
+- If they can't show up they will get in touch with someone and find out what
+  they missed before the next meeting
+- Show up to class
+- Comment code - put name with comments ex. @Courtney
+- Variable Names - camelCase, shortDescription
+- When contacted with another member of the team, respond within 24 hours
+
+Definition of Done
+- Have working ER Diagram for database
+- Have mock-up design for website
+- Have working framework for website
+
+Issues and Concerns
+- commitment to communication
+- clarification of product vision
+
+Product Backlog
+>screenshot of trello attached to e-mail
