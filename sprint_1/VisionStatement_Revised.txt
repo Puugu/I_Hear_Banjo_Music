@@ -1,0 +1,15 @@
+Vision Statement
+
+For: Paddling Race Directors and Racers
+
+Who: want an online resource for creating and managing races, as well as viewing race results
+
+is a: web application
+
+that: is free and easy to use
+
+unlike: paid, generalized tools
+
+Our product: provides specialized registration and time management tools for paddle races
+
+Which supports our strategy to: promote paddling and make it more accessible
