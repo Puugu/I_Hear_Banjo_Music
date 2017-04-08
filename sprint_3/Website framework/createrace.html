@@ -1,0 +1,102 @@
+<!--
+
+    Form for creating a new race using information provided by the race director.
+
+    Dean Dixon
+    Latest Update: 4/3/2017
+
+-->
+
+<!doctype html>
+
+
+<html>
+<link href="cover.css" rel="stylesheet">
+<link href="createrace.css" rel="stylesheet"> <!-- overide cover css to align fields nicely -->
+
+<body>
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+
+                <div class="masthead clearfix">
+                    
+                </div>
+				
+               <!-- Moved Navigation bar out of masthead clearfix so it would be static for form -->
+               <div class="inner">
+
+                        <nav>
+                            <div class="topnav">
+                                <ul class="nav masthead-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="createrace.html">Create Race</a></li>
+                                    <li><a href="editrace.html">Edit Race</a></li>
+                                    <li><a href="#">Add/Edit Registration</a></li>
+                                    <li><a href="#">Time Race</a></li>
+                                    <li><a href="results.html">Results</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+               
+               
+               
+               
+               
+                <div class="inner cover">
+					<div>
+					
+					  <form action="/action_page.php" id="bform">
+						<label for="name">Race Name</label>
+						<input type="text" id="name" name="name" placeholder="Your name..">
+
+						<label for="date">Date of Race</label>
+						<input type="text" id="daterace" name="dateofrace" placeholder="Your last name..">
+
+						<label for="location">Location of Race</label>
+						<input type="text" id="location" name="locationofrace" placeholder="Enter Location of Race..">
+						
+						<label for="name">Description</label>
+						<textarea rows="4" cols="50" name="description" form="bform" id="description">Enter text here...</textarea>
+						
+						
+						
+						<label for="name">Add Boat</label>
+						<input type="text" id="bname" name="boatname" placeholder="Boat Type..">
+					  	<input type="button" value="Add Boat Type To List">
+						
+						<label for="country">Available Boat Classes</label>
+						<select id="boat" name="boat">
+						  <option value="reckyak">Rec. Kyak</option>
+						  <option value="racekyak">Race Kyak</option>
+						  <option value="sup">SUP</option>
+						  <option value="sup">Canoe</option>
+						  <option value="sup">Pedal Boat</option>
+						  <option value="sup">Unladen Swallow</option>
+						</select>
+				  		
+						<input type="submit" value="Submit">
+					  </form>
+					</div>
+					
+					
+					
+                    <p>Framework for I Hear Banjo Music's Paddle Racer Website.</p>
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
