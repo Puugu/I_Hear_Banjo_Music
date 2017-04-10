@@ -1,9 +1,9 @@
 <!--
 
-    Form for editing race using information provided by the race director.
-
     Dean Dixon
-    Latest Update: 4/3/2017
+    Latest Update: 4/10/2017
+
+    Description: Form for editing race using information provided by the race director.
 
 -->
 
@@ -11,7 +11,12 @@
 
 
 <html>
-<link href="cover.css" rel="stylesheet">
+
+<head>
+    <link href="cover.css" rel="stylesheet">
+    <link href="editrace.css" rel="stylesheet">
+</head>
+
 <body>
     <div class="site-wrapper">
 
@@ -37,10 +42,116 @@
                     </div>
                 </div>
 
-                <div class="inner cover">
+                <!--<div class="inner cover">-->
 
+                    <table class="table">
+
+                        <tr>
+                            <th>Date</th>
+                            <th>Race Name</th>
+                            <th>Location</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>04/03/2017</td>
+                            <td>Up Shit Creek</td>
+                            <td>Shit Creek</td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>04/07/2017</td>
+                            <td>Down Shit Creek</td>
+                            <td>Shit Creek</td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>04/24/2017</td>
+                            <td>Purdy Mouth Annual</td>
+                            <td>Banjo Stream</td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                    </table>
+
+                <!--</div>-->
+
+                <br>
+
+                <div>
+
+                    <!--<label for="name">Name:</label>
+                    <div class="panel panel-default">
+                        <div class="panel-body">Up Shit Creek</div>
+                    </div>
+
+                    <label for="name">Date:</label>
+                    <div class="panel panel-default">
+                        <div class="panel-body">Up Shit Creek</div>
+                    </div>
+
+                    <label for="name">Location:</label>
+                    <div class="panel panel-default">
+                        <div class="panel-body">Up Shit Creek</div>
+                    </div>
+
+                    <label for="name">Description:</label>
+                    <div class="panel panel-default">
+                        <div class="panel-body">Up Shit Creek</div>
+                    </div>
+
+                    <label for="name">Boat Classes:</label>-->
                     
+                    <table class="table">
 
+                        <tr>
+                            <td>Name:</td>
+                            <td>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">Up Shit Creek</div>
+                                </div>
+                            </td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Date:</td>
+                            <td>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">04/03/2017</div>
+                                </div>
+                            </td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">Shit Creek, Long Beach, MS, USA</div>
+                                </div>
+                            </td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Description</td>
+                            <td>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">Don't get caught up Shit Creek without your paddle!</div>
+                                </div>
+                            </td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>Boat Classes:</td>
+                            <td>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Rec. Kayak</li>
+                                    <li class="list-group-item">Race Kayak</li>
+                                    <li class="list-group-item">SUP</li>
+                                </ul>
+                            </td>
+                            <td><button class="btn btn-default" type="button">Edit</button></td>
+                        </tr>
+
+                    </table>
+                    
                 </div>
 
                 <div class="mastfoot">

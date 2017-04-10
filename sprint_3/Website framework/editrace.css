@@ -69,6 +69,10 @@ input[type=button] {
     height: 50px;
     padding: 20px;
 }
-textarea{
-    resize: none;
+.table{
+    background-color: grey;
+    border: 1px solid #ccc;
+}
+.panel{
+    background-color: white;
 }

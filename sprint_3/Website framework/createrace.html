@@ -1,9 +1,9 @@
 <!--
 
-    Form for creating a new race using information provided by the race director.
-
     Dean Dixon
-    Latest Update: 4/3/2017
+    Latest Update: 4/8/2017
+
+    Description: Modified by Johnathan Bowie. Form for creating a new race using information provided by the race director.
 
 -->
 
@@ -11,8 +11,11 @@
 
 
 <html>
-<link href="cover.css" rel="stylesheet">
-<link href="createrace.css" rel="stylesheet"> <!-- overide cover css to align fields nicely -->
+
+<head>
+    <link href="cover.css" rel="stylesheet">
+    <link href="createrace.css" rel="stylesheet"> <!-- overide cover css to align fields nicely -->
+</head>
 
 <body>
     <div class="site-wrapper">
@@ -40,11 +43,7 @@
                                 </ul>
                             </div>
                         </nav>
-                    </div>
-               
-               
-               
-               
+                    </div>             
                
                 <div class="inner cover">
 					<div>
@@ -60,9 +59,7 @@
 						<input type="text" id="location" name="locationofrace" placeholder="Enter Location of Race..">
 						
 						<label for="name">Description</label>
-						<textarea rows="4" cols="50" name="description" form="bform" id="description">Enter text here...</textarea>
-						
-						
+						<textarea rows="4" cols="50" name="description" form="bform" id="description" placeholder="Enter text here..."></textarea>												
 						
 						<label for="name">Add Boat</label>
 						<input type="text" id="bname" name="boatname" placeholder="Boat Type..">
@@ -80,10 +77,8 @@
 				  		
 						<input type="submit" value="Submit">
 					  </form>
-					</div>
-					
-					
-					
+
+					</div>										
                     <p>Framework for I Hear Banjo Music's Paddle Racer Website.</p>
                 </div>
 
