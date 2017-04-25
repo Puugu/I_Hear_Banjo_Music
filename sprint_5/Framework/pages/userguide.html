@@ -1,0 +1,198 @@
+﻿<!--
+
+    Jonathan Bowie
+    Latest Update: 4/23/2017
+
+    Description: A "user guide" page for visitors new to the product website to read and understand each section and its contents.
+
+    Modified by: Dean Dixon to fill main container with the user guide contents.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Log In</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../style/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../style/bootstrap-theme.min.css" rel="stylesheet">
+    
+
+    <!-- Custom styles for this template -->
+    <link href="../style/theme.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Paddle Racer</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="../index.html">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Race Director<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+			    <li class="dropdown-header">Races</li>
+                <li><a href="createrace.php">Create Race</a></li>
+                <li><a href="editrace.php">Edit Race</a></li>
+				<li role="separator" class="divider"></li>
+                <li class="dropdown-header">Potential Participants</li>
+				<li><a href="addparticipant.php">Add Participant</a></li>
+				<li><a href="editparticipant.php">Edit Participant</a></li>
+				<li role="separator" class="divider"></li>
+                <li><a href="enterracetime.php">Enter Race Times</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Race Participant<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+			    <li class="dropdown-header">Races</li>
+                <li><a href="viewraces.php">View Races</a></li>
+                <li><a href="register.php">Register</a></li>
+              </ul>
+            </li>
+			<li><a href="viewresults.php">View Results</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="questions.html">FAQ</a></li>
+                <li><a href="userguide.html">User Guide</a></li>
+              </ul>
+            </li>
+		  <li ><a href="login.php">Log in/out</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      
+			<div class="well">
+                <!-- Start of code authored by Dean Dixon-->
+		        <ul class="list-group">
+                    <!--Each list item marked with the "list-group-item" class contain headers to label the respective section of the user guide, and the paragraphs of information themselves-->
+                    <li class="list-group-item">
+                        <h2 class="list-group-item-heading">Website Navigation</h2>
+                        <p class="list-group-item-text">
+                            All website pages are readily accessible at the top of each page within a navigation bar, by moving the mouse over a section and choosing the desired page from the resulting menu.
+                            There are three types of pages available: general pages for anyone visiting the website, pages for race directors to manage races, and race registration pages for race participants.
+                        </p>
+                        <br />
+                        <p class="list-group-item-text">
+                            The general pages consist of the Home page, the About page, a log-in page to allow only race directors that have logged in to create and edit races, a View Results page for completed races, 
+                            a Frequently Asked Questions page (FAQ), and finally this User Guide page. While the race participant pages are only of use for potential participants of a race, it is of course also can be accessed by 
+                            anyone visiting the website as only race directors must log in to be able to manage their races.
+                        </p>
+                        <br />
+                        <p class="list-group-item-text">
+                            As far as the general pages go, the Home page displays a welcome message and any important announcements, while the About page displays some details about the web application 
+                            and those that created it, the View Race Results page displays the information for each race as well as a "View Results!" button beside each one to view each participant's completion time for that race, and
+                            the FAQ page provides common questions asked about the website and accompanying answers for each of them. 
+                        </p>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <h2 class="list-group-item-heading">Pages Relevant to Race Director</h2>
+                        <p class="list-group-item-text">The pages in this section are for the purpose of allowing a race director to create a new race, edit existing races as needed, and to manage race participants. 
+                        The "Create Race" page allows submitting information for the creation of a new race, while the "Edit Race" page allows editting of information of previously created races by submitting the new changes. 
+                        The races that have been created and submitted are located in a list in the top portion of either page, though the "Edit Race" page also includes an "Edit" button beside each race. 
+                        There is also an "Edit Race Results" page for submitting race completion times for each participant.</p>
+                        <br />
+                        <p class="list-group-item-text">The "Add Participant" allows a race director to manually submit participants that have registered as officially participating in their desired race. 
+                        Naturally there is also an "Edit Participant" section to alter the information that had been recorded for that participant by submitting the new changes.</p>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <h3 class="list-group-item-heading">Submitting Information</h3>
+                        <p class="list-group-item-text">For a race director to make use of any of the available pages that require them to log in, they must submit relevant information whether they are creating a race or adding a participant.</p>
+                        <br />
+                        <p class="list-group-item-text">To create a new race the race director must enter a name for the race, the date the race will take place, the location it will take place at, a brief description that race participants may read,
+                        and any available boat classes participants may select to use. For the most part these same pieces of information are required if a race director would like to edit the details of a race in the "Edit Race" page,
+                        depending on what changes are needed.</p>
+                        <br />
+                        <p class="list-group-item-text">Information submitted to add a new participant using the "Add Participant" page must include everything they had submitted in the registration process when using the "Register" page, 
+                        such as their assigned ID number. A BIB number must also be assigned to the participant by the race director when adding a new participant to a race. As with editting a race, each of the fields present in the "Add Participant" page 
+                        also appear in the "Edit Participant" page, for a race director to be able to edit whichever require new changes to be submitted.</p>
+                    
+                    <li class="list-group-item">
+                        <h3 class="list-group-item-heading">Displayed Information</h3>
+                        <p class="list-group-item-text">Creating a new race results in an additional row in the list located in the top portion of the "Create Race" and "Edit Race" pages. This displays the race's name, location, and the date it will be held.</p>
+                        <br />
+                        <p class="list-group-item-text">As with creating a new race, adding a new participant results in an additional row in the list located in the top portion of the "Add Participant" and "Edit Participant" pages. 
+                        This displays the participant's first name, last name, BIB number, selected boat class, and selected team name.</p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <h2 class="list-group-item-heading">Pages Relevant to Participants</h2>
+                        <p class="list-group-item-text">The pages in this section are for the purpose of allowing non-race directors visiting the website to register as a race participant, so they may be added to their desired race by a race director.</p>
+                        <br />
+                        <p class="list-group-item-text">The "View Races" page allows potential participants to view details about each race so as to be able to choose which they would like to be signed up for by a race director. 
+                        The other page potential participants may access is the "Register" page, to officially submit a form identifying themselves as a race participant. Participants may also register as a team, with each member registering under a 
+                        specific team name decided on prior to registration.</p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <h3 class="list-group-item-heading">Submitting Information</h3>
+                        <p class="list-group-item-text">For a potential race participant to actually compete, they must submit relevant information into the registration page so they or their team may be added as participants in the desired race(s). 
+                        This required information to be submitted using the "Register" page includes the participant's first and last name, their date of birth, assigned ID number, what town they are a resident of, their team's name if they are a member of any, 
+                        and what class of boat they will be using.</p>
+                        <br />
+                        <p class="list-group-item-text">When representing a team, a participant may select from a list of existing teams listed by previous participants (which can be other members of their team) or by adding a new team name to the list. 
+                        The same method is applied to available boat classes.</p>
+                    </li>
+
+                    <li class="list-group-item">
+                        <h3 class="list-group-item-heading">Displayed Information</h3>
+                        <p class="list-group-item-text">The singular purpose of the "View Races" page is to display information relevant to potential participants. This includes each race's name, the date on which it will be held, and its location. 
+                        Beside each row of race information there is a "Details" button which a potential participant may click to display the race description that the race director had provided when creating the race.</p>
+                    </li>
+
+                </ul>
+                <!-- End of code authored by Dean Dixon-->
+            </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../style/jquery.min.js"></script>
+    <script src="../style/bootstrap.min.js"></script>
+    <script src="../style/docs.min.js"></script>
+    
+  
+
+<div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" title="" data-original-title="Copy to clipboard">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" width="100%" height="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1492036253108">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="/assets/flash/ZeroClipboard.swf?noCache=1492036253108" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit" width="100%" height="100%">                </object></div><svg xmlns="http://www.w3.org/2000/svg" width="1140" height="500" viewBox="0 0 1140 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="57" style="font-weight:bold;font-size:57pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thirdslide</text></svg>
+</body>
+
+
+</html>
